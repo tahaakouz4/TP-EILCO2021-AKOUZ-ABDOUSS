@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context=".PageAcceuil">
+
+    <TextView
+        android:id="@+id/languageChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="@string/Language"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/frenchButton"
+        android:layout_width="139dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="72dp"
+        android:text="Français"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/languageChoice" />
+
+    <Button
+        android:id="@+id/spanishButton"
+        android:layout_width="139dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="72dp"
+        android:text="Espanol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/languageChoice" />
+
+    <Button
+        android:id="@+id/italianButton"
+        android:layout_width="139dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="256dp"
+        android:text="Italiano"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/languageChoice" />
+
+    <Button
+        android:id="@+id/germanButton"
+        android:layout_width="139dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="164dp"
+        android:text="Deutsch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/languageChoice" />
+
+    <Button
+        android:id="@+id/dutchButton"
+        android:layout_width="139dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="256dp"
+        android:text="Nederlands"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/languageChoice" />
+
+    <Button
+        android:id="@+id/englishButton"
+        android:layout_width="139dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="164dp"
+        android:text="English"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/languageChoice" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
